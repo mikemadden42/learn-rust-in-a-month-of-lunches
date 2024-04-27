@@ -4,11 +4,3 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-
-[[example]]
-name = "ch-01-hello"
-path = "examples/ch-01-hello.rs"
-
-[[example]]
-name = "ch-01-comments"
-path = "examples/ch-01-comments.rs"
