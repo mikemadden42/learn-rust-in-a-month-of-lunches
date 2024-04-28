@@ -1,4 +1,5 @@
 fn main() {
-    let some_number/*: i16*/ = 100;
-    println!("{some_number}");
+    // Figure out the meaning of life.
+    let meaning = 42;
+    println!("{meaning}");
 }
