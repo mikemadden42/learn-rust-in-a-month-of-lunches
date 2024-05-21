@@ -5,6 +5,7 @@ Examples for [Learn Rust in a Month of Lunches](https://www.manning.com/books/le
 ```bash
 # Build all examples.
 cargo build --examples
+cargo build --examples -v
 
 # Build a single example.
 cargo build --example ch-01-hello
