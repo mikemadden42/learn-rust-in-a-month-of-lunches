@@ -20,6 +20,7 @@ cargo fmt --all -- --check
 
 # Check for common errors.
 cargo clippy -- -Dwarnings
+cargo clippy -- -Dwarnings -Adeprecated
 cargo clippy -- -Wclippy::pedantic
 cargo clippy -- -Wclippy::restriction
 ```
