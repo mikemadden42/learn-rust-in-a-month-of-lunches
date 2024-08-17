@@ -24,3 +24,5 @@ cargo clippy -- -Dwarnings -Adeprecated
 cargo clippy -- -Wclippy::pedantic
 cargo clippy -- -Wclippy::restriction
 ```
+
+MSRV: 1.56.1
