@@ -16,7 +16,6 @@ jobs:
             windows-2025,
             windows-2022,
             macos-15,
-            macos-14,
           ]
         toolchain: [stable]
         include:
