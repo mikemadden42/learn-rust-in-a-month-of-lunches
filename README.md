@@ -8,10 +8,10 @@ cargo build --examples
 cargo build --examples -v
 
 # Build a single example.
-cargo build --example ch-01-hello
+cargo build --example ch_01_hello
 
 # Run a single example.
-cargo run --example ch-01-hello
+cargo run --example ch_01_hello
 ```
 
 ```bash
@@ -19,12 +19,12 @@ cargo run --example ch-01-hello
 cargo fmt --all -- --check
 
 # Check for common errors.
-cargo clippy -- -Dwarnings
-cargo clippy -- -Dwarnings -Adeprecated
+cargo clippy --all-targets -- -Dwarnings
+cargo clippy --all-targets -- -Dwarnings -Adeprecated
 cargo clippy --all-targets --all-features -- -Dwarnings -Adeprecated
-cargo clippy -- -Wclippy::pedantic
+cargo clippy --all-targets -- -Wclippy::pedantic
 cargo clippy --all-targets --all-features -- -Wclippy::pedantic
-cargo clippy -- -Wclippy::restriction
+cargo clippy --all-targets -- -Wclippy::restriction
 ```
 
-MSRV: 1.56.1
+MSRV: 1.85 (required by edition 2024; also set as `rust-version` in `Cargo.toml`)
